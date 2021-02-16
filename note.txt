@@ -1,6 +1,6 @@
 What is Version control?
-Is a system that records changes to a files or 
-sset of files over time so that you can recall specific versions later.
+Is a system that records changes to a file or 
+set of files over time so that you can recall specific versions later.
 (VCS = Version control system)
 
 ========
@@ -9,7 +9,9 @@ sset of files over time so that you can recall specific versions later.
 
 (CVCS = Centralized Version Control system)
 
-/ what is CVS, Subversion, Perforce
+/ what is CVS, Subversion, Perforce = this are other forms of version control system different from git
+I think they used to exist before git was form in 2005 and git is very easy to use and pride itself in
+having speed and keeps track of all changes to our files
 
 (DVCS = Distribution Version Control system)
 
@@ -24,3 +26,38 @@ The Three States of git
 => Working Directory => Staging Area => .git directory(Repository)
 
 ### Time to Learn git basics ###
+1. git status: this shows all files in your modified stage, basically it shows the edit files and 
+the unsaved files as well, let's just say it shows the current state of your Working
+
+2. git branch: git branch shows nothing until you have created a a branch then it will now show 
+you list of your branches(different collaborators) and with this you can easily swtich between 
+different clients (developers) in your local machine.
+
+3. git merge: this simply harmonize the different contributions made by the different clients(developers)
+4. git clone: gives yu access to a someone's project to work on, on your local machine
+git clone <url> 
+.makes a copy of a Repository
+.stores it on yoiur computer
+.a 'fork' creates your own copy of someone else's Repository
+
+5. git add: when making changes to your files or folder, it helps you
+add to the staging Area.
+.adds a file to 'staging are'
+.tells git to include the file in the next revision to the Repository
+.git add *adds all changed files
+.git add <filename> adds just that particular file 
+6. git commit: this simply adds your added file to git to save 
+the version of your files.saves the changes to the repository as a new revision(a 'commit')
+.records a messages
+.git commit -am 'message' adds and commits in same step
+7. git push: basically sends our files to the cloud and saves it there for use
+.sends committedchanges to  the remote repository
+.more explicitly, could write git push origin master
+8. git pull: is the opposite of git pull, so basically what it does is simply 
+getting the latest version of our projecct from github where other clients(collaborators or developers) 
+must have made changes
+.retrieves changes from remote repository
+9.Merge Conflicts: this shows a situaton where two or more clients
+make changes to a particular line in a certain file, and pushed to
+github, github will find it diffuilt to know which version it shoiuld choose
+.when two different commits can't be automatically merge.need to be reesolved
