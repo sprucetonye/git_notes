@@ -1,0 +1,26 @@
+What is Version control?
+Is a system that records changes to a files or 
+sset of files over time so that you can recall specific versions later.
+(VCS = Version control system)
+
+========
+
+(LVCS = Local Version Control system) e.g RCS 
+
+(CVCS = Centralized Version Control system)
+
+/ what is CVS, Subversion, Perforce
+
+(DVCS = Distribution Version Control system)
+
+
+#### A short history of git #####
+
+The Three States of git
+1. modified
+2. stage
+3. committed
+
+=> Working Directory => Staging Area => .git directory(Repository)
+
+### Time to Learn git basics ###
