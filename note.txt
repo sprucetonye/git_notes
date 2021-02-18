@@ -61,3 +61,5 @@ must have made changes
 make changes to a particular line in a certain file, and pushed to
 github, github will find it diffuilt to know which version it shoiuld choose
 .when two different commits can't be automatically merge.need to be reesolved
+git log: this simply shows you all commits and their details, checking all contributions from different clients(developers).
+git reset: it helps  you revert back to previous version of your code.
